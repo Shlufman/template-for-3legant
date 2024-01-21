@@ -1,0 +1,44 @@
+.slider-container {
+  position: relative;
+  width: 80%; /* Выберите желаемую ширину слайдера */
+  margin: 0 auto;
+}
+
+.slides-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 0 0 100%;
+  height: 300px; /* Выберите желаемую высоту слайдов */
+  transition: transform 0.3s ease;
+}
+
+.slide.active {
+  border: 2px solid #007bff; /* Цвет выделенного бордера */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Тень для активного слайда */
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ddd;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.slider-button:hover {
+  background-color: #ccc;
+}
+
+.slider-button.left {
+  left: 0;
+}
+
+.slider-button.right {
+  right: 0;
+}

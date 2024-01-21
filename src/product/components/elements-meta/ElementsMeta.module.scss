@@ -1,0 +1,34 @@
+.baseClass{
+
+}
+
+.value{
+  color: var(--neutral-07100, #141718);
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Caption 2 */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+.title{
+  color: var(--neutral-04100, #6C7275);
+  font-feature-settings: 'clig' off, 'liga' off;
+  width: 181px;
+  /* Caption 2 */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+.row{
+  display: flex;
+  align-items: flex-start;
+  //gap: 98px;
+}
+.row + .row{
+  margin-top: 8px;
+}

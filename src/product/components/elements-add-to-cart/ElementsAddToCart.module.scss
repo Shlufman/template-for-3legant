@@ -1,0 +1,39 @@
+.baseClass {
+
+}
+
+.btnAddToCart {
+  margin-top: 16px;
+  display: flex;
+  height: 40px;
+  //padding: 32px 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: #141718;
+  border-radius: 8px;
+  color: #FFF;
+
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Button M */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.4px;
+  user-select: none;
+  transition: background-color 0.1s, color 0.1s;
+  cursor: pointer;
+}
+.btnAddToCart:hover {
+  background-color: #555; /* Тёмно-серый цвет при наведении */
+  color: white; /* Белый текст при наведении */
+}
+
+/* Стили при нажатии на кнопку */
+.btnAddToCart:active {
+  background-color: #777; /* Ещё темнее серый цвет при нажатии */
+  border-color: #777; /* Ещё темнее серый цвет границы при нажатии */
+  color: white; /* Белый текст при нажатии */
+}

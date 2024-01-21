@@ -1,0 +1,20 @@
+.baseClass {
+  max-width: 1120px;
+  height: 986px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+  width: 45%;
+  backgroundColor: #fafafa;
+
+  &> :last-child {
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,43 @@
+$smFontSize: 12px;
+$normalFontSize: 16px;
+$mdFontSize: 20px;
+$lgFontSize: 28px;
+
+
+$normalWidth: 1120px;
+
+//10px
+$current10px: calc(4.4px + min(0.5vw, 5.6px));
+//12px
+$current12px: calc(6.4px + min(0.5vw, 5.6px));
+//14px
+$current14px: calc(8.4px + min(0.5vw, 5.6px));
+//16px
+$current16px: calc(10.4px + min(0.5vw, 5.6px));
+//18px
+$current18px: calc(12.4px + min(0.5vw, 5.6px));
+//20px
+$current20px: calc(14.4px + min(0.5vw, 5.6px));
+//22px
+$current22px: calc(16.4px + min(0.5vw, 5.6px));
+//24px
+$current24px: calc(18.4px + min(0.5vw, 5.6px));
+//26px
+$current26px: calc(20.4px + min(0.5vw, 5.6px));
+//28px
+$current28px: calc(22.4px + min(0.5vw, 5.6px));
+
+
+//12px
+$currentSmFontSize: calc(6.4px + min(0.5vw, 5.6px));
+//16px
+$currentNormalFontSize: calc(10.4px + min(0.5vw, 5.6px));
+//20px
+$currentMdFontSize: calc(14.4px + min(0.5vw, 5.6px));
+//28px
+$currentLgFontSize: calc(18.4px + min(0.5vw, 5.6px));
+
+//$currentSmFontSize: min($smFontSize, calc( 100vw / $normalWidth) * $smFontSize);
+//$currentNormalFontSize: min($mdFontSize, calc( 100vw / $normalWidth) * $normalFontSize);
+//$currentSmFontSize: min($mdFontSize, calc( 100vw / $normalWidth) * $mdFontSize);
+//$currentSmFontSize: min($lgFontSize, calc( 100vw / $normalWidth) * $lgFontSize);

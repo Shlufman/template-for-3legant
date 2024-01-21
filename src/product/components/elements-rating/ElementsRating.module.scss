@@ -1,0 +1,26 @@
+@import '../../../css/constants/total';
+@import './../../../css/fonts';
+
+.baseClass{
+  display: flex;
+  align-items: center;
+  height: $current16px;
+}
+
+.title{
+  margin-left: 10px;
+  font-family: Inter;
+  font-size: $current12px;
+}
+
+.group{
+  display: flex;
+  width: calc(#{$current22px} * 4);
+  justify-content: space-between;
+  height: $current16px;
+  margin-right: $current10px;
+}
+
+.star{
+  width: $currentNormalFontSize;
+}

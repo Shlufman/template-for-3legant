@@ -1,0 +1,9 @@
+.area{
+  display: flex;
+  justify-content: space-between;
+  margin-top: min(23px, ( 23 * ( 100vw / 1120 ) ));
+}
+
+.img{
+  max-width: 30%;
+}

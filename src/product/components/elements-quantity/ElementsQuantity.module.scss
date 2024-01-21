@@ -1,0 +1,77 @@
+.baseClass {
+  display: flex;
+  align-items: center;
+
+}
+.quantityBlock{
+  display: flex;
+  width: 127px;
+  height: 52px;
+  //padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  column-gap: 24px;
+}
+.quantity{
+  color: var(--Black-900, #121212);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Text/16px/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  user-select: none;
+}
+
+.quantityBtn{
+  color: var(--Black-900, #121212);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Text/16px/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+
+.wishlistBtn{
+  display: flex;
+  width: 357px;
+  height: 40px;
+  margin-left: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: var(--neutral-07100, #141718);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+user-select: none;
+  /* Button M */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.4px;
+  transition: background-color 0.1s, color 0.1s;
+  cursor: pointer;
+}
+.wishlistBtn:hover {
+  background-color: #fff; /* Белый цвет при наведении */
+  color: #333; /* Темно-серый цвет текста при наведении */
+}
+
+/* Стили при нажатии на кнопку */
+.wishlistBtn:active {
+  background-color: #ccc; /* Светло-серый цвет при нажатии */
+  border-color: #ccc; /* Светло-серый цвет границы при нажатии */
+  color: #333; /* Темно-серый цвет текста при нажатии */
+}

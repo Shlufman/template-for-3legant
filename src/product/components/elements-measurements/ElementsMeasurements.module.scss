@@ -1,0 +1,27 @@
+.baseClass {
+
+}
+
+.baseClassTitle {
+  color: var(--neutral-04100, #6C7275);
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Body 2 (Semi) */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+}
+
+.baseClassSizes {
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  margin-top: 8px;
+  /* Body 1 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}

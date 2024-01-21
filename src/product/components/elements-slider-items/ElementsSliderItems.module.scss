@@ -1,0 +1,147 @@
+.baseClass {
+  display: flex;
+  justify-content: space-between;
+  //column-gap: 16px;
+  //overflow: hidden;
+  position: relative;
+  user-select: none;
+}
+
+.leftButtonArrow {
+  background-color: rgba(white,0.1);
+
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 15px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+  cursor: pointer;
+  &:hover{
+    opacity: 1;
+  }
+}
+.rightButtonArrow{
+  background-color: rgba(white,0.1);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+  cursor: pointer;
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.leftArrow {
+  //position: absolute;
+  //left: 0;
+
+}
+
+.rightArrow {
+  //position: absolute;
+  //right: 0;
+}
+.image{
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+  cursor: pointer;
+}
+.active{
+  outline-offset: -1px;
+  outline: 1px solid black;
+}
+
+/* Добавление стрелок, если блок переполнен */
+//&::before,
+//&::after {
+//  content: '';
+//  width: 20px; /* Ширина стрелок */
+//  height: 20px; /* Высота стрелок */
+//  background-color: #ddd; /* Цвет стрелок (можете настроить по своему вкусу) */
+//  position: absolute;
+//  top: 50%;
+//  transform: translateY(-50%);
+//  pointer-events: none; /* Игнорировать события мыши */
+//  opacity: 0; /* Начально скрыты */
+//  transition: opacity 0.3s ease;
+//}
+
+//&::before {
+//  left: 0;
+//  background-image: linear-gradient(to right, transparent, #ddd); /* Градиент для левой стрелки */
+//}
+
+//&::after {
+//  right: 0;
+//  background-image: linear-gradient(to left, transparent, #ddd); /* Градиент для правой стрелки */
+//}
+
+/* Показываем стрелки только при переполнении */
+//&:hover::before,
+//&:hover::after {
+//  opacity: 1;
+//}
+//}
+//.scrollContainer {
+//  position: relative;
+//  display: flex;
+//  overflow-x: auto;
+//  white-space: nowrap;
+//}
+//
+//.content {
+//  display: flex;
+//  position: relative;
+//}
+//
+//.image {
+//  width: 200px;
+//  margin-right: 10px;
+//}
+
+/* Стили для стрелок */
+//.scrollArrow {
+//  position: absolute;
+//  top: 50%;
+//  transform: translateY(-50%);
+//  font-size: 24px;
+//  color: #333;
+//  background-color: #fff;
+//  padding: 8px;
+//  cursor: pointer;
+//  transition: background-color 0.3s ease;
+//  opacity: 0;
+//}
+
+//.scrollArrow.left {
+//  left: 0;
+//  transform: translate(-100%, -50%);
+//}
+//
+//.scrollArrow.right {
+//  right: 0;
+//  transform: translate(100%, -50%);
+//}
+
+/* Показываем стрелки только при прокрутке (hover) */
+//.scrollContainer:hover .scrollArrow {
+//  opacity: 1;
+//}
+//
+//.scrollContainer:hover .scrollArrow:hover {
+//  background-color: #ddd;
+//}
